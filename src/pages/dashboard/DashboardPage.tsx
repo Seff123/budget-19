@@ -11,6 +11,7 @@ import {Sidebar} from "../../components/Sidebar.tsx";
 interface Props {
     tiles: Array<{ text: string; rows: number; cols: number }>
 }
+//
 
 const render: RenderTileFunction<{ text: string; rows: number; cols: number }> = ({ data, isDragging }) => (
     <div style={{ padding: ".75rem", width: "100%" }}>
